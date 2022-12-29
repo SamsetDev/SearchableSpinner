@@ -1,15 +1,12 @@
 package com.samset.evsample.view.ui.adapters
 
 import android.content.Context
-import android.icu.util.UniversalTimeScale.toLong
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
-import android.widget.BaseAdapter
 import android.widget.TextView
-import androidx.appcompat.widget.AppCompatTextView
 import com.samset.evsample.R
 import com.samset.evsample.core.model.Country
 
@@ -20,7 +17,7 @@ import com.samset.evsample.core.model.Country
   Proprietary and confidential.
   See the License for the specific language governing permissions and limitations under the License.
  
-  Created by Sanjay Singh (a17iiuvf) on 28,December,2022 at 8:40 PM for EVSample.
+  Created by Sanjay Singh on 28,December,2022 at 8:40 PM for EVSample.
   New Delhi,India
  */
 

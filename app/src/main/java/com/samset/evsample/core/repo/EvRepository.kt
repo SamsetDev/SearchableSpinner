@@ -1,4 +1,4 @@
-package com.samset.evsample.core
+package com.samset.evsample.core.repo
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
   Proprietary and confidential.
   See the License for the specific language governing permissions and limitations under the License.
  
-  Created by Sanjay Singh (a17iiuvf) on 28,December,2022 at 6:40 PM for EVSample.
+  Created by Sanjay Singh on 28,December,2022 at 6:40 PM for EVSample.
   New Delhi,India
  */
 

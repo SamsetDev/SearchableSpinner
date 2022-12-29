@@ -4,13 +4,11 @@ package com.samset.evsample.view.ui.fragments
 import android.annotation.SuppressLint
 import android.app.Dialog
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.RadioGroup
-import android.widget.Toast
 import androidx.fragment.app.setFragmentResult
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.samset.evsample.R
@@ -45,7 +43,7 @@ public class BottomSheetFragment : BottomSheetDialogFragment() {
             if (validate()){
                 binding.btnrecharge.warningAlert(requireContext(),getString(R.string.success_added_amt))
                 dismiss()
-                setFragmentResult(BOTTOM_SHEET_DIALOG_TAG,Bundle())
+                setFragmentResult(BOTTOM_SHEET_DIALOG_TAG, Bundle())
             }
         }
 

@@ -11,7 +11,7 @@ import retrofit2.http.GET
   Proprietary and confidential.
   See the License for the specific language governing permissions and limitations under the License.
  
-  Created by Sanjay Singh (a17iiuvf) on 28,December,2022 at 6:54 PM for EVSample.
+  Created by Sanjay Singh  on 28,December,2022 at 6:54 PM for EVSample.
   New Delhi,India
  */
 

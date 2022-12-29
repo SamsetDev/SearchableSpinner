@@ -3,11 +3,9 @@ package com.samset.evsample.utils
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.setFragmentResult
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -15,7 +13,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.samset.evsample.R
 import com.samset.evsample.core.model.Country
 import com.samset.evsample.databinding.DialogSearchableSpinnerBinding
-import com.samset.evsample.databinding.FragmentEvCountryBinding
 import com.samset.evsample.utils.Constants.CITY_DATA_RESULT
 import com.samset.evsample.utils.Constants.DIALOG_TAG
 import com.samset.evsample.utils.Constants.FROM
@@ -30,7 +27,7 @@ import com.samset.evsample.view.ui.adapters.RecyAdapter
   Proprietary and confidential.
   See the License for the specific language governing permissions and limitations under the License.
  
-  Created by Sanjay Singh (a17iiuvf) on 29,December,2022 at 6:52 PM for EVSample.
+  Created by Sanjay Singh on 29,December,2022 at 6:52 PM for EVSample.
   New Delhi,India
  */
 
