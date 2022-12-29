@@ -16,34 +16,40 @@
         app:cardUseCompatPadding="true">
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:padding="12dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@mipmap/ic_launcher_round" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/Spincountry"
-                android:hint="@string/select_country"
-                android:padding="12dp"
-                android:layout_marginTop="15dp"
-                android:gravity="center_vertical"
-                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
-                android:background="@android:drawable/editbox_background"
-                />
-
-            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/Spincity"
-                android:hint="@string/select_city"
-                android:padding="12dp"
-                android:layout_marginTop="15dp"
-                android:gravity="center_vertical"
-                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+                android:layout_marginTop="@dimen/_25dp"
                 android:background="@android:drawable/editbox_background"
-                />
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+                android:gravity="center_vertical"
+                android:hint="@string/select_country"
+                android:padding="12dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/Spincity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@android:drawable/editbox_background"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+                android:gravity="center_vertical"
+                android:hint="@string/select_city"
+                android:padding="12dp" />
+
+
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
