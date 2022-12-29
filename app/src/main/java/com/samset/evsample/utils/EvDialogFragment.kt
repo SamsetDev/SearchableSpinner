@@ -52,8 +52,6 @@ class EvDialogFragment : DialogFragment() {
             }else{
                 countryList=arguments?.getSerializable("data") as ArrayList<Country> /* = java.util.ArrayList<com.samset.evsample.core.model.Country> */
             }
-
-            Log.e("EvDialogFragment"," arg getting "+countryList)
         }
 
     }

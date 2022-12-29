@@ -26,7 +26,7 @@ import com.samset.evsample.utils.warningAlert
   Proprietary and confidential.
   See the License for the specific language governing permissions and limitations under the License.
  
-  Created by Sanjay Singh (a17iiuvf) on 29,December,2022 at 5:01 AM for EVSample.
+  Created by Sanjay Singh  on 29,December,2022 at 5:01 AM for EVSample.
   New Delhi,India
  */
 
@@ -58,12 +58,10 @@ public class BottomSheetFragment : BottomSheetDialogFragment() {
                 val radio: RadioButton = group.findViewById(checkedId)
                 var input=radio.text.toString().substring(1)
                  binding.etAmt.setText(input)
-                //Toast.makeText(requireContext()," On checked change :"+ " ${radio.text}", Toast.LENGTH_SHORT).show()
             })
         binding.payradiogroup.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener { group, checkedId ->
                 val radio: RadioButton = group.findViewById(checkedId)
                 payMode=radio.text.toString()
-                //Toast.makeText(requireContext()," On checked change :"+ " ${radio.text}", Toast.LENGTH_SHORT).show()
             })
     }
 
