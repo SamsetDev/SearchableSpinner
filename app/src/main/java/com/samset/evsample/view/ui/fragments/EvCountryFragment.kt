@@ -106,7 +106,6 @@ class EvCountryFragment : BaseFragment() {
                     if(response!=null && response.data!=null && response.data.dataList!=null){
                         var data=response.data.dataList
                         countryList.addAll(data)
-                        Log.e("tag"," Success response  "+data.toString())
                     }
                 }
                 Status.ERROR -> {
@@ -124,7 +123,7 @@ class EvCountryFragment : BaseFragment() {
             bundle.putSerializable("data",countryList)
             bundle.putString(FROM,ViewType.COUNTRY.name)
             fragment.arguments=bundle
-            fragment.show(childFragmentManager,"tag")
+            fragment.show(childFragmentManager,DIALOG_TAG)
         }
     }
 
