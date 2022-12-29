@@ -1,8 +1,6 @@
 package com.samset.evsample.view.ui.base
 
 import android.app.Dialog
-import android.app.ProgressDialog
-import android.app.ProgressDialog.show
 import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -16,7 +14,7 @@ import com.samset.evsample.R
   Proprietary and confidential.
   See the License for the specific language governing permissions and limitations under the License.
  
-  Created by Sanjay Singh (a17iiuvf) on 28,December,2022 at 7:25 PM for EVSample.
+  Created by Sanjay Singh on 28,December,2022 at 7:25 PM for EVSample.
   New Delhi,India
  */
 

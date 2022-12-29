@@ -1,8 +1,6 @@
 package com.samset.evsample.view.ui.adapters
 
 import android.content.Context
-import android.graphics.ColorSpace
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -22,7 +20,7 @@ import kotlin.collections.ArrayList
   Proprietary and confidential.
   See the License for the specific language governing permissions and limitations under the License.
  
-  Created by Sanjay Singh (a17iiuvf) on 29,December,2022 at 2:49 PM for EVSample.
+  Created by Sanjay Singh on 29,December,2022 at 2:49 PM for EVSample.
   New Delhi,India
  */
 
