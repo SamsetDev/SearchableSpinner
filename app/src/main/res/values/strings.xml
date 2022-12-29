@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BatterySmart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Add Money To You Wallet And Make Payment</string>
+    <string name="recommended">Recommended</string>
+    <string name="select_country">Select Country</string>
+    <string name="select_city">Select City</string>
+    <string name="p_mode">Payment Mode</string>
+    <string name="cancel">Cancel</string>
+    <string name="recharge">Recharge</string>
+    <string name="ok">Ok</string>
+    <string name="enter_amt">Enter amount</string>
+    <string name="upi">UPI</string>
+    <string name="online">Online</string>
+    <string name="please_enter_amt">Please enter amount</string>
+    <string name="please_select_payment_mode">Please select payment mode</string>
+    <string name="success_added_amt">You have succesfully added amount in you wallet</string>
+
+</resources>
