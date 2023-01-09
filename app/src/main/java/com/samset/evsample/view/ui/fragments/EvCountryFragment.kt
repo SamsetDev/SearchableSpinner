@@ -48,6 +48,7 @@ class EvCountryFragment : BaseFragment() {
         observeData()
         requestApiCall()
         setupCountryData()
+        Log.e("tag","this is sample")
     }
 
     private fun requestApiCall(){
